@@ -58,4 +58,4 @@ The Sun Maker es uno de los hijos más jóvenes del Sol, algún día en el futur
 
 ## Enlaces importantes
 
-Si deseas ver el proyecto en funcionamiento puedes entrar a:
+Si deseas ver el proyecto en funcionamiento puedes entrar a: [https://nancygtec.github.io/the-sun-maker/](https://nancygtec.github.io/the-sun-maker/)
