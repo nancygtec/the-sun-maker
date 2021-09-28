@@ -20,6 +20,8 @@ Para disfrutar plenamente de la experiencia se requiere lo siguiente:
 
 ## El personaje
 
+![Optional Text](resources/TheSunMaker.png)
+
 #### Nombre
 
 The Sun Maker
