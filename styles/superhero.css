@@ -1,0 +1,108 @@
+/* super-body begin */
+.superhero .super-body {
+    background: var(--main-color-neon-carrot);
+    background: radial-gradient(circle at 100px 100px, var(--main-color-neon-carrot), var(--main-color-sunset-orange));
+    box-shadow: 0px 0px 50px 2px var(--main-color-sunset-orange);
+    border-radius: 50%;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+/* super-body end */
+
+/* eye begin */
+.superhero .eye {
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+}
+
+.superhero .eye.right {
+    left: 50%;
+}
+
+.superhero .eye.left {
+    right: 50%;
+}
+
+.superhero .eye {
+    width: 54px;
+    height: 63px;
+}
+/* eye end */
+
+/* iris begin */
+.superhero .iris {
+    background-color: var(--main-color-sunset-orange-dark);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+}
+
+.superhero .right .iris {
+    right: 24%;
+}
+
+.superhero .left .iris {
+    left: 24%;
+}
+
+.superhero .iris {
+    width: 36px;
+    height: 42px;
+}
+/* iris end */
+
+/* pupil begin */
+.superhero .pupil {
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+}
+
+.superhero .right .pupil {
+    left: 31%;
+}
+
+.superhero .left .pupil {
+    left: 35%;
+}
+
+.superhero .pupil {
+    width: 12px;
+    height: 17px;
+}
+/* pupil end */
+
+/* mouth begin */
+.superhero hr.mouth {
+    background-color: var(--main-color-violet-red-dark);
+    border: none;
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+}
+
+.superhero .mouth {
+    width: 12px;
+    height: 2px;
+    /* -1*(width/2) */
+    margin-left: -6px;
+}
+/* mouth end */
+
+/* smile begin */
+.superhero .smile-img {
+    bottom: 2%;
+}
+
+.superhero .smile-img {
+    width: 90px;
+    height: 59px;
+    /* -1*(width/2) */
+    margin-left: -45px;
+}
+/* smile end */

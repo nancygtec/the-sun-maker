@@ -1,0 +1,159 @@
+.person.bg-sad .person-head,
+.person.bg-sad .person-body,
+.person.bg-sad .arm,
+.person.bg-sad .leg {
+    background: var(--main-color-violet-red-light);
+}
+
+.person.bg-happy .person-head,
+.person.bg-happy .person-body,
+.person.bg-happy .arm,
+.person.bg-happy .leg {
+    background-color: var(--main-color-violet-red-soft);
+}
+
+/* person-head begin */
+.person .person-head {
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    /* -1*(width/2) */
+    margin-left: -60px;
+}
+/* person-head end */
+
+/* eye begin */
+.person .eye {
+    position: absolute;
+    border-radius: 50%;
+    background-color: black;
+    top: 35%;
+    width: 12px;
+    height: 22px;
+}
+
+.person .eye.sad {
+    top: 40%;
+    width: 16px;
+    height: 8px;
+}
+
+.person .eye.right {
+   right: 32%;
+}
+
+.person .eye.left {
+    left: 32%;
+ }
+/* eye end */
+
+/* person-body begin */
+.person .person-body {
+    position: absolute;
+    background-color: inherit;
+    left: 50%;
+    width: 90px;
+    height: 82px;
+    top: 116px;
+    /* -1*(width/2) */
+    margin-left: -45px;
+}
+/* person-body end */
+
+/* feelings begin */
+.person .feelings {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 38px;
+}
+
+.person .feelings i {
+    color: var(--main-color-violet-red);
+}
+
+.person .feelings i.fa-heart {
+    color: var(--main-color-sunset-orange);
+}
+/* feelings end */
+
+/* arm begin */
+.person .arm {
+    position: absolute;
+    background-color: inherit;
+    top: 0px;
+    width: 36px;
+    height: 42px;
+}
+
+.person .arm.right {
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    /* -1*(arm width - 1) */
+    right: -35px;
+}
+
+.person .arm.left {
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    /* -1*(arm width - 1) */
+    left: -35px;
+}
+/* arm end */
+
+/* leg begin */
+.person .leg {
+    position: absolute;
+    background-color: inherit;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    bottom: 0;
+    width: 42px;
+    height: 40px;
+}
+
+.person .leg.right {
+    /* -1*(leg height - 1) */
+    bottom: -39px;
+    right: 0;
+}
+
+.person .leg.left {
+    /* -1*(leg height - 1) */
+    bottom: -39px;
+    left: 0;
+}
+/* leg end */
+
+/* mouth begin */
+.person hr.mouth {
+    background-color: var(--main-color-violet-red-dark);
+    border: none;
+    position: absolute;
+    bottom: 17%;
+    left: 50%;
+}
+
+.person .mouth {
+    width: 14px;
+    height: 3px;
+    /* -1*(width/2) */
+    margin-left: -7px;
+}
+/* mouth end */
+
+/* smile begin */
+.person .smile-img {
+    bottom: 5%;
+}
+
+.person .smile-img {
+    width: 74px;
+    height: 50px;
+    /* -1*(width/2) */
+    margin-left: -37px;
+}
+/* smile end */

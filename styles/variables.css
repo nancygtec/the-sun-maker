@@ -1,0 +1,32 @@
+/* General */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root {
+    --main-bg-color: white;
+    --main-font-family: 'Josefin Sans', sans-serif;
+    --main-font-size: 26px;
+    
+    /* Base Palette */
+    --main-color-violet-red: rgb(244,55,121);
+    --main-color-violet-red-soft: rgb(255,90,153);
+    --main-color-picton-blue: rgb(51,167,228);
+    --main-color-picton-blue-soft: rgb(49,192,255);
+    --main-color-malachit: rgb(51,228,109);
+    --main-color-malachit-soft: rgb(85,255,133);
+    --main-color-neon-carrot: rgb(255,148,57);
+    --main-color-sunset-orange: rgb(255,80,57);
+
+    /* Light Palette */
+    --main-color-violet-red-light: rgb(239,175,202);
+    --main-color-picton-blue-light: rgb(166,207,226);
+    --main-color-malachit-light: rgb(166,226,183);
+    --main-color-neon-carrot-light: rgb(255,216,187);
+    --main-color-sunset-orange-light: rgb(255,192,187);
+
+    /* Dark Palette */
+    --main-color-violet-red-dark: rgb(63,15,33);
+    --main-color-picton-blue-dark: rgb(12,39,51);
+    --main-color-malachit-dark: rgb(12,51,23);
+    --main-color-neon-carrot-dark: rgb(76,43,18);
+    --main-color-sunset-orange-dark: rgb(76,22,18);
+}
